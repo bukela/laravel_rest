@@ -9,6 +9,7 @@ $(document).ready(function(){
         let body = $('#body').val();
 
         addItem(text,body);
+        this.reset();
     });
 
     //delete event
