@@ -12,7 +12,7 @@
 */
 
 Route::get('/', function () {
-    return view('welcome');
+    return \File::get(public_path() . '/itemManager/index.html');
 });
 
 Route::resource('api/items', 'ItemsController');
